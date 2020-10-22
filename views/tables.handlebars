@@ -41,7 +41,6 @@
             <ul id="tableList" class="list-group">
                 {{#each tableData}}
                 <li class='list-group-item mt-4'>
-                    <h2> Table #{{this.customerId}}</h2>
                     <hr>
                     <h2> Id: {{this.customerId}}</h2>
                     <h2> Name: {{this.customerName}}</h2>
@@ -62,8 +61,6 @@
             <ul id="waitList" class="list-group">
                 {{#each waitListData}}
                 <li class='list-group-item mt-4'>
-                    
-                    <h2> Table #{{@key}}: {{this + 1}}</h2>
                     <hr>
                     <h2> Id: {{this.customerId}}</h2>
                     <h2> Name: {{this.customerName}}</h2>
